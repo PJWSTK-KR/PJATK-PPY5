@@ -2,7 +2,7 @@ import sys
 
 
 def save_students(file_name, students):
-    file = open(file_name + "tmp", 'w')
+    file = open(file_name, 'w')
     for student in students:
         content = ""
         for key in students[student]:
